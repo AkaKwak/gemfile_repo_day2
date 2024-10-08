@@ -17,17 +17,17 @@ end
 
 describe "sum_of_3_or_5_multiples // method" do
   it "it verify if final number is equal to 33" do
-    expect(sum_of_3_and_5_multiples(10)).to eq(23)
-    expect(sum_of_3_and_5_multiples(11)).to eq(33)
+    expect(sum_of_3_or_5_multiples(10)).to eq(23)
+    expect(sum_of_3_or_5_multiples(11)).to eq(33)
   end
   it "it verify if final number is equal to 0" do
-    expect(sum_of_3_and_5_multiples(0)).to eq(0)
-    expect(sum_of_3_and_5_multiples(3)).to eq(0)
+    expect(sum_of_3_or_5_multiples(0)).to eq(0)
+    expect(sum_of_3_or_5_multiples(3)).to eq(0)
   end
   it "it verify if final number is integer" do
-    expect(sum_of_3_and_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers. TG")
-    expect(sum_of_3_and_5_multiples(1.23)).to eq("Yo ! Je ne prends que les entiers. TG")
-    expect(sum_of_3_and_5_multiples("string")).to eq("Yo ! Je ne prends que les entiers. TG")
+    expect(sum_of_3_or_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers. TG")
+    expect(sum_of_3_or_5_multiples(1.23)).to eq("Yo ! Je ne prends que les entiers. TG")
+    expect(sum_of_3_or_5_multiples("string")).to eq("Yo ! Je ne prends que les entiers. TG")
   end
   
 end

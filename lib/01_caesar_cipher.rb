@@ -9,12 +9,13 @@ def transform_letter(letter)
 end
 
 def transform_word()
+  
+end
 
 
 # Exemple d'utilisation
 puts transformer_lettre('A')  # Affiche 'B'
 puts transformer_lettre('z')  # Affiche '{'
-
 
 
 
